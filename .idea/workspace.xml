@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64bca9e3-991d-4ca5-861a-71b9d83804b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PhoneBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PhoneBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PhoneBookTest.java" afterDir="false" />
     </list>
@@ -34,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "JUnit.PhoneBookTest.executor": "Run",
     "Maven.TelephoneBook4 [compile].executor": "Run",
     "Maven.TelephoneBook4 [install].executor": "Run",
@@ -93,7 +95,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748340569859</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Stub and tests for findByName">
+      <option name="closed" value="true" />
+      <created>1748340905560</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748340905560</updated>
+    </task>
+    <task id="LOCAL-00007" summary="findByName implemented">
+      <option name="closed" value="true" />
+      <created>1748340962505</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748340962505</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -102,6 +120,8 @@
     <MESSAGE value="add implemented" />
     <MESSAGE value="Stub and tests for findByNumber" />
     <MESSAGE value="findByNumber implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="findByNumber implemented" />
+    <MESSAGE value="Stub and tests for findByName" />
+    <MESSAGE value="findByName implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="findByName implemented" />
   </component>
 </project>

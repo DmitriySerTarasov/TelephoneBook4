@@ -41,4 +41,11 @@ public class PhoneBookTest {
         String number = phoneBook.findByName("Bob");
         assertEquals(null, number);
     }
+    @Test
+    public void testPrintAllNames() {
+        PhoneBook phoneBook = new PhoneBook();
+        phoneBook.add("Alice", "12345");
+        phoneBook.add("Bob", "67890");
+        phoneBook.printAllNames();
+    }
 }
