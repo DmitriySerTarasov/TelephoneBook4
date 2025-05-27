@@ -15,4 +15,17 @@ public class PhoneBookTest {
         phoneBook.add("Alice", "12345");
         int count = phoneBook.add("Alice", "54321");
     }
+    @Test
+    public void testFindByNumber() {
+        PhoneBook phoneBook = new PhoneBook();
+        phoneBook.add("Alice", "12345");
+        String name = phoneBook.findByNumber("12345");
+        assertEquals("Alice", name);
+    }
+    @Test
+    public void testFindByNumberNotFound() {
+        PhoneBook phoneBook = new PhoneBook();
+        String name = phoneBook.findByNumber("99999");
+        assertEquals(null, name);
+    }
 }
