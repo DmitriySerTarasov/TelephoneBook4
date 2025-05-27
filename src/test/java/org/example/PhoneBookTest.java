@@ -28,4 +28,17 @@ public class PhoneBookTest {
         String name = phoneBook.findByNumber("99999");
         assertEquals(null, name);
     }
+    @Test
+    public void testFindByName() {
+        PhoneBook phoneBook = new PhoneBook();
+        phoneBook.add("Alice", "12345");
+        String number = phoneBook.findByName("Alice");
+        assertEquals("12345", number);
+    }
+    @Test
+    public void testFindByNameNotFound() {
+        PhoneBook phoneBook = new PhoneBook();
+        String number = phoneBook.findByName("Bob");
+        assertEquals(null, number);
+    }
 }
